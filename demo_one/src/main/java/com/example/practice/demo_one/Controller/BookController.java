@@ -32,7 +32,7 @@ public class BookController {
 	@GetMapping("/all")
 	public ResponseEntity<?> getBooks()
 	{
-		logger.info("Entered into controller and trying to Getting the books");
+		logger.info("Entered into Book controller and trying to Getting the books");
 		
 		List<Book> bookList=bservice.getAllBooks();
 		
